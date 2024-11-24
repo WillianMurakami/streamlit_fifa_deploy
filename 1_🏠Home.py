@@ -20,7 +20,7 @@ st.sidebar.markdown('Desenvolvido por [Willian Murakami](https://www.linkedin.co
 
 
 
-btn = st.button('acesse os dados no kaggle')
+btn = st.link_button('acesse os dados no kaggle')
 if btn:
     wb.open_new_tab('https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data')
 
